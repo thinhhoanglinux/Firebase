@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:background="@color/colorBlack"
+    tools:context="com.cwd.firebase.Activity.LaunchActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_margin="20dp">
+
+        <EditText
+            android:id="@+id/launch_email"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:hint="Email"
+            android:drawableRight="@drawable/ic_mail"
+            android:paddingRight="20dp"
+            android:background="@drawable/bg_edittext"
+            android:textColor="@color/colorWhite"
+            android:layout_marginBottom="4dp"
+            android:inputType="textEmailAddress"
+            android:paddingLeft="10dp"/>
+
+        <EditText
+            android:id="@+id/launch_password"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:hint="Password"
+            android:drawableRight="@drawable/ic_lock"
+            android:paddingRight="20dp"
+            android:background="@drawable/bg_edittext2"
+            android:textColor="@color/colorWhite"
+            android:paddingLeft="10dp"
+            android:inputType="textPassword"
+            android:layout_marginBottom="5dp"/>
+
+        <Button
+            android:id="@+id/launch_login"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="login"
+            android:textStyle="bold"
+            android:textColor="@color/colorYellow"
+            android:layout_marginBottom="5dp"
+            android:background="@drawable/bg_button"/>
+
+        <Button
+            android:id="@+id/launch_register"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="register"
+            android:textStyle="bold"
+            android:textColor="@color/colorWhite"
+            android:background="@drawable/bg_button2"/>
+    </LinearLayout>
+
+</LinearLayout>
